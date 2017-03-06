@@ -1,9 +1,9 @@
 /** @license
 
- VISHNU'S TRICKS Revealing All New Tricks Before You
+ TECH MOB Revealing All New Tricks Before You
  -----------------------------------------------------------
- Program Coded By Vishnu (CREATED BY VISHNU'S TRICKS)
- Copyright (c) 2017, VISHNU'S TRICKS. All rights reserved.
+ Program Coded By Vishnu (CREATED BY TECH MOB)
+ Copyright (c) 2017, TECH MOB. All rights reserved.
  Code provided under the BSD License
 */
 var snowStorm=function(g,f){function k(a,d){isNaN(d)&&(d=0);return Math.random()*a+d}function x(){g.setTimeout(function(){a.start(!0)},20);a.events.remove(m?f:g,"mousemove",x)}function y(){(!a.excludeMobile||!D)&&x();a.events.remove(g,"load",y)}this.excludeMobile=this.autoStart=!0;this.flakesMax=128;this.flakesMaxActive=64;this.animationInterval=33;this.useGPU=!0;this.className=null;this.excludeMobile=!0;this.flakeBottom=null;this.followMouse=!0;this.snowColor="#fff";this.snowCharacter="&bull;";this.snowStick=
