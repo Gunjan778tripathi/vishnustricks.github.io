@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home" />
+        <item
+            android:title="Blog"
+            android:icon="@drawable/blog"
+            android:id="@+id/nav_blog" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"
+            android:icon="@android:drawable/ic_dialog_info" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact"
+            android:icon="@drawable/contact" />
+
+
+        <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/yt"
+                android:title="Youtube" />
+
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:icon="@drawable/wa"
+            android:title="Whatsapp" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/close"
+            android:title="Exit" />
+    </group>
+</menu>
