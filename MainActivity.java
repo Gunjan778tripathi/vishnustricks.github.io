@@ -1,4 +1,4 @@
-package com.techmobs.app;
+package com.appname.app;
 
 import android.content.Context;
 import android.content.DialogInterface;
